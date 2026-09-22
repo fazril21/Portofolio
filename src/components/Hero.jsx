@@ -8,11 +8,11 @@ const Hero = () => {
           <h2 className="hero-role">Fullstack Developer</h2>
           <div>
             <a href="#contact" className="btn-primary">Hire Me</a>
-            <a href="/CV_fazril.pdf" download="CV_fazril.pdf" target="_blank" className="btn-secondary">Download CV</a>
+            <a href="./CV_fazril.pdf" download="CV_fazril.pdf" target="_blank" className="btn-secondary">Download CV</a>
           </div>
         </div>
         <div className="hero-image-container">
-          <img src="/profile.jpg" alt="Fazril Fachrezi Ramdani" className="hero-image" onError={(e) => {
+          <img src="./profile.jpg" alt="Fazril Fachrezi Ramdani" className="hero-image" onError={(e) => {
             e.target.src = "https://via.placeholder.com/350x350.png?text=Fazril";
           }} />
         </div>

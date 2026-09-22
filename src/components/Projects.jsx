@@ -9,9 +9,9 @@ const Projects = () => {
       tech: ["React JS"],
       desc: "Bertanggung jawab sebagai <i>Front-End Developer</i> dalam pengembangan lebih dari 30 menu operasional, yang mencakup proses <i>layouting</i>, integrasi API, dan validasi data kompleks. Berperan penuh dalam menjaga kualitas sistem melalui <i>Unit Testing</i>, manajemen kode di GitLab, hingga penyelesaian <i>bug</i> secara komprehensif pada fase SIT dan UAT.",
       images: [
-        { src: "/m-log.png", alt: "MPM SCM Login" },
-        { src: "/m-p.png", alt: "MPM SCM Page 1" },
-        { src: "/m-m.png", alt: "MPM SCM Page 2" }
+        { src: "./m-log.png", alt: "MPM SCM Login" },
+        { src: "./m-p.png", alt: "MPM SCM Page 1" },
+        { src: "./m-m.png", alt: "MPM SCM Page 2" }
       ]
     },
     {
@@ -19,9 +19,9 @@ const Projects = () => {
       tech: ["Laravel", "Vue JS"],
       desc: "Berkontribusi penuh dalam pengembangan antarmuka dan fitur sistem operasional, mulai dari standardisasi kode, <i>layouting</i> UI, integrasi API secara <i>seamless</i>, hingga pembuatan <i>endpoint</i> backend untuk memastikan kelancaran alur kerja aplikasi.",
       images: [
-        { src: "/alcon-log.png", alt: "Alcon Login" },
-        { src: "/alcon-DS.png", alt: "Alcon Dashboard" },
-        { src: "/alcon-PO.png", alt: "Alcon Purchase Order" }
+        { src: "./alcon-log.png", alt: "Alcon Login" },
+        { src: "./alcon-DS.png", alt: "Alcon Dashboard" },
+        { src: "./alcon-PO.png", alt: "Alcon Purchase Order" }
       ]
     },
     {
@@ -29,9 +29,9 @@ const Projects = () => {
       tech: ["React JS", "Spring Boot"],
       desc: "Berperan aktif dalam pengembangan dan pemeliharaan aplikasi Core Banking dengan melakukan penambahan fitur baru, perbaikan (*fixing*), serta <i>layouting</i> antarmuka. Tanggung jawab mencakup integrasi API pada <i>front-end</i>, pembuatan <i>endpoint</i> <i>back-end</i>, hingga penerapan <i>Stored Procedure</i> untuk optimasi basis data.",
       images: [
-        { src: "/cb-log.png", alt: "Core Banking Login" },
-        { src: "/cb-savings.png", alt: "Core Banking Savings" },
-        { src: "/cb-tf.png", alt: "Core Banking Transfer" }
+        { src: "./cb-log.png", alt: "Core Banking Login" },
+        { src: "./cb-savings.png", alt: "Core Banking Savings" },
+        { src: "./cb-tf.png", alt: "Core Banking Transfer" }
       ]
     },
 
