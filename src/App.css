@@ -19,6 +19,11 @@
   100% { background-position: 0% 50%; }
 }
 
+body.light .section-dark {
+  background: linear-gradient(-45deg, #ffffff, #f1f5f9, #e2e8f0, #ffffff);
+  background-size: 400% 400%;
+}
+
 .section-alternate {
   background-color: var(--bg-alternate);
   color: var(--text-light);
@@ -37,6 +42,11 @@
   border-bottom: 1px solid var(--border-color);
   padding: 1rem 0;
   color: var(--text-light);
+  transition: background-color 0.3s ease;
+}
+
+body.light .navbar {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar .container {
@@ -61,6 +71,21 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.2) rotate(15deg);
 }
 
 /* --- Section Common --- */
@@ -265,6 +290,11 @@ section {
   align-items: center;
   backdrop-filter: blur(5px);
   cursor: zoom-out;
+  transition: background-color 0.3s ease;
+}
+
+body.light .lightbox {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .lightbox-img {

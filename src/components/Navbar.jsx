@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Navbar = ({ theme, toggleTheme }) => {
   return (
     <nav className="navbar">
       <div className="container">
@@ -9,6 +9,9 @@ const Navbar = () => {
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
+          <button onClick={toggleTheme} className="theme-toggle" aria-label="Toggle Theme">
+            {theme === 'dark' ? '☀️' : '🌙'}
+          </button>
         </div>
       </div>
     </nav>
