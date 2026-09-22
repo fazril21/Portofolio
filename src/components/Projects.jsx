@@ -58,15 +58,19 @@ const Projects = () => {
             </div>
 
             <div className="project-gallery">
-              {project.images.map((img, index) => (
-                <img
-                  key={index}
-                  src={img.src}
-                  alt={img.alt}
-                  className="project-img"
-                  onClick={() => setSelectedImage(img.src)}
-                />
-              ))}
+              {project.images.map((img, index) => {
+                const imgPath = img.src.replace('./', '');
+                const fullSrc = `${import.meta.env.BASE_URL}${imgPath}`;
+                return (
+                  <img 
+                    key={index}
+                    src={fullSrc} 
+                    alt={img.alt} 
+                    className="project-img" 
+                    onClick={() => setSelectedImage(fullSrc)}
+                  />
+                );
+              })}
             </div>
           </div>
         ))}
